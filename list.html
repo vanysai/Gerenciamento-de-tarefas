@@ -7,7 +7,7 @@
     <title>Gerenciamento de Tarefas</title>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
-<body>
+<body onload="list()">
     <header>
         <h1>Gerenciamento de Tarefas</h1>
     </header>
@@ -19,13 +19,19 @@
         </ul>
     </nav>
     <div class="container">
-        <h3>Tarefa</h3>
-        <input type="text" id="tarefa"
-            placeholder="Adicione uma tarefa"
-        >
-        <button type="button" onclick="addTarefa()">
-            Adicionar 
-        </button>
+        <h3>Lista de Tarefa</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tarefa</th>
+                </tr>
+            <tbody id="tr-tarefa">
+
+            </tbody>
+        </thead>
+    </table>
+
 
     </div>
 

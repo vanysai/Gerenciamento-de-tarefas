@@ -91,6 +91,19 @@ ul li{
 
 footer{
 
-    color: rgb(254, 124, 124);
+    color: rgb(74, 19, 86);
     border-top: 2px solid #f6e2f6;
+}
+
+th{
+    background-color: #cf7acf;
+    border-radius: 15px;
+    color: #bc3abc;
+    padding: 1rem;
+}
+td{
+    border:2px solid #805b80;
+    border-radius: 15px;
+    padding: 0.5rem;
+    text-align: center;
 }
