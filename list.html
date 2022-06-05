@@ -1,3 +1,4 @@
+<!-- CENTRALIZAR OS LINKS -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,43 +8,45 @@
     <title>Gerenciamento de Tarefas</title>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
-<body onload="list()">
+<body onLoad="list()">
     <header>
         <h1>Gerenciamento de Tarefas</h1>
     </header>
-    <nav class="nav">
-        <ul class="ul">
+    <nav>
+        <ul> 
             <li><a href="./index.html">Nova Tarefa</a></li>
             <li><a href="./list.html">Lista de Tarefas</a></li>
-            
         </ul>
     </nav>
-    <div class="container">
-        <h3>Lista de Tarefa</h3>
-        <table>
-            <thead>
+<div class="container">
+<!--Add formulário-->
+    <h3>Lista de Tarefa</h3>
+    <table>
+        <thead>
                 <tr>
-                    <th>Data</th>
-                    <th>Tarefa</th>
+                    <th> Data </th>
+                    <th> Tarefa </th>
                 </tr>
             <tbody id="tr-tarefa">
 
             </tbody>
         </thead>
     </table>
-
-
-    </div>
-
-    <footer>
-        <ul>
-            <li>SESI / SENAI</li>
-            <li>SC - 401, Bairro Saco
-            Nova Tarefa Grande, Florianópolis</li>
-            <li>CEP 8032-005</li>
-        </ul>
-    </footer>
     
-    <script src="./js/script.js"></script>
+
+</div>
+
+<footer>
+    <ul>
+        <li class="footer-li">SENAI</li>
+        <li class="footer-li">Localizacao: SC-401, 3730 - Saco Grande, Florianópolis </li>
+        <li class="footer-li">88032-005</li>
+        <li class="footer-li">Telefone: (48) 3239-5800</li>
+    </ul>
+
+</footer>
+
+<script src="./js/script.js"></script>
+
 </body>
 </html>
