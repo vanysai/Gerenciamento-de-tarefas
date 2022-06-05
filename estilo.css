@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(158, 132, 223);
+    background-color: rgba(158, 132, 223, 0.788);
     margin: 0;
     font-family: 'Franklin Gothic Medium';
 }
@@ -26,7 +26,7 @@ body{
 }
 
 .container input:hover{
-    background-color: rgb(11, 42, 65);
+    background-color: rgb(96, 57, 168);
     
 }
 
@@ -45,7 +45,7 @@ body{
 }
 
 .nav{
-    background-color: rgb(154, 88, 176);
+    background-color: rgb(203, 139, 224);
     text-align: center;
     justify-content: center;
     padding: 1rem;
@@ -96,9 +96,9 @@ footer{
 }
 
 th{
-    background-color: #cf7acf;
+    background-color: hsl(241, 47%, 65%);
     border-radius: 15px;
-    color: #bc3abc;
+    color: #4f2897;
     padding: 1rem;
 }
 td{
